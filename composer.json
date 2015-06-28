@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-app-advanced",
+    "name": "dbavscc/yii2-app-basic-advanced",
     "description": "Yii 2 Advanced Project Template",
     "keywords": ["yii2", "framework", "advanced", "project template"],
     "homepage": "http://www.yiiframework.com/",
@@ -20,10 +20,8 @@
         "yiisoft/yii2-swiftmailer": "*"
     },
     "require-dev": {
-        "yiisoft/yii2-codeception": "*",
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
-        "yiisoft/yii2-faker": "*"
     },
     "config": {
         "process-timeout": 1800

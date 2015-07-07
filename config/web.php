@@ -3,7 +3,7 @@ return [
     'id' => 'app-web',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'controllerNamespace' => 'controllers',
+    'controllerNamespace' => 'app\controllers',
     'components' => [
         'user' => [
             'identityClass' => 'app\models\User',

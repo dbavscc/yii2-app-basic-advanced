@@ -1,12 +1,12 @@
 <?php
 return [
-    'id' => 'app-frontend',
+    'id' => 'app-web',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'controllers',
     'components' => [
         'user' => [
-            'identityClass' => 'common\models\User',
+            'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
         ],
         'log' => [
